@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\tonya\\Desktop\\Git\\GameFeelUnreal\\RTS\\Source\\RTS\\RTS.Build.cs",
+		"C:\\Users\\tonya\\Desktop\\Git\\GameFeelUnreal\\RTS\\Plugins\\FCTween\\Source\\FCTween\\FCTween.Build.cs",
+		"C:\\Users\\tonya\\Desktop\\Git\\GameFeelUnreal\\RTS\\Source\\RTS.Target.cs",
+		"C:\\Users\\tonya\\Desktop\\Git\\GameFeelUnreal\\RTS\\Source\\RTSEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

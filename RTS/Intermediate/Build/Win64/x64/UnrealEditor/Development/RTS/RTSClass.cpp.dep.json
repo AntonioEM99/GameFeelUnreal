@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\tonya\\desktop\\git\\gamefeelunreal\\rts\\source\\rts\\rtsclass.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\tonya\\desktop\\git\\gamefeelunreal\\rts\\intermediate\\build\\win64\\x64\\rtseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\tonya\\desktop\\git\\gamefeelunreal\\rts\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rts\\definitions.rts.h",
+            "c:\\users\\tonya\\desktop\\git\\gamefeelunreal\\rts\\source\\rts\\rtsclass.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
