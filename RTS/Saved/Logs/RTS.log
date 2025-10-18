@@ -2369,3 +2369,18 @@ LogConfig: Set CVar [[r.DynamicRes.DynamicFrameTime:1]]
 [2025.10.18-00.16.11:599][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
 [2025.10.18-00.16.11:612][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
 [2025.10.18-00.16.11:633][282]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.10.18-00.16.30:961][497]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.18-00.16.31:034][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.10.18-00.16.31:039][497]LogSavePackage: Moving output files for package: /Game/TopDown/Maps/MainMenu
+[2025.10.18-00.16.31:040][497]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/MainMenuD9FD0EA74A6ED99A559E7685A76859E7.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Maps/MainMenu.umap'
+[2025.10.18-00.16.31:047][497]LogFileHelpers: Saving map 'MainMenu' took 0.049
+[2025.10.18-00.16.31:056][497]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.928 ms (total: 461.715 ms)
+[2025.10.18-00.16.31:096][497]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.18-00.16.31:096][497]LogContentValidation: Enabled validators:
+[2025.10.18-00.16.31:096][497]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.18-00.16.31:096][497]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.18-00.16.31:096][497]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.18-00.16.31:096][497]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.18-00.16.31:096][497]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.18-00.16.31:096][497]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.18-00.16.31:096][497]AssetCheck: /Game/TopDown/Maps/MainMenu Validating asset
