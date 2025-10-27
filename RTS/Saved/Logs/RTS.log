@@ -6960,3 +6960,635 @@ Sampler Limit: 32
 [2025.10.27-10.40.26:973][580]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.10.27-10.40.26:973][580]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24539.136719, Update Interval: 325.523865
 [2025.10.27-10.40.36:749][ 26]LogAutomationController: Ignoring very large delta of 2.36 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.10.27-10.46.26:864][354]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24899.583984
+[2025.10.27-10.46.27:080][367]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.27-10.46.27:080][367]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24899.785156, Update Interval: 346.065247
+[2025.10.27-10.46.43:579][344]LogSlate: Window 'Message Log' being destroyed
+[2025.10.27-10.46.43:601][344]LogSlate: Window 'Message Log' being destroyed
+[2025.10.27-10.46.46:317][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.10.27-10.46.49:085][663]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.27-10.46.49:092][663]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.10.27-10.46.49:092][663]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2025.10.27-10.46.49:095][663]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 2.237 ms (total: 22.051 ms)
+[2025.10.27-10.46.49:095][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.27-10.46.49:095][663]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.10.27-10.46.49:099][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004118s)
+[2025.10.27-10.46.49:099][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.004165s)
+[2025.10.27-10.46.49:120][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.10.27-10.46.49:123][663]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap
+[2025.10.27-10.46.49:125][663]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.27-10.46.49:125][663]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.27-10.46.49:125][663]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.27-10.46.49:125][663]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.27-10.46.49:127][663]LogWorldPartition: Display: WorldPartition initialize took 1.576 ms (total: 542.364 ms)
+[2025.10.27-10.46.49:127][663]LogPlayLevel: PIE: World Init took: (0.003422s)
+[2025.10.27-10.46.49:128][663]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.10.27-10.46.49:128][663]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.27-10.46.49:128][663]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.27-10.46.49:128][663]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.27-10.46.49:128][663]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.27-10.46.49:128][663]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.27-10.46.49:128][663]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.27-10.46.49:128][663]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.27-10.46.49:128][663]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.27-10.46.49:128][663]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.27-10.46.49:128][663]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.27-10.46.49:128][663]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.27-10.46.49:131][663]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.27-10.46.49:193][663]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.10.27-10.46.49:194][663]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.27-10.46.49:194][663]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.27-10.46.49:194][663]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.27-10.46.49:194][663]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.10.27-10.46.49:194][663]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.10.27-10.46.49:199][663]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.10.27-10.46.49:199][663]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.10.27-10.46.49:199][663]LogInit: FAudioDevice initialized with ID 8.
+[2025.10.27-10.46.49:199][663]LogAudio: Display: Audio Device (ID: 8) registered with world 'TopDownMap'.
+[2025.10.27-10.46.49:199][663]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.10.27-10.46.49:233][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.27-10.46.49:233][663]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.10.27-10.46.49:236][663]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 60) at 2025.10.27-04.46.49
+[2025.10.27-10.46.49:236][663]LogWorld: Bringing up level for play took: 0.002037
+[2025.10.27-10.46.49:239][663]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.10.27-10.46.49:245][663]LogScript: Warning: Accessed None trying to read property runtimeMaterial
+	BP_TestBuilding_C /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap:PersistentLevel.BP_TestBuilding_C_UAID_24B2B98F1CE83E9C02_1657339144
+	Function /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding_C:ExecuteUbergraph_BP_TestBuilding:0079
+[2025.10.27-10.46.49:245][663]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property runtimeMaterial". Node:  Set Scalar Parameter Value Graph:  EventGraph Function:  Execute Ubergraph BP Test Building Blueprint:  BP_TestBuilding
+[2025.10.27-10.46.49:248][663]PIE: Server logged in
+[2025.10.27-10.46.49:249][663]PIE: Play in editor total start time 0,156 seconds.
+[2025.10.27-10.46.51:752][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.27-10.46.51:752][753]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.10.27-10.46.51:752][753]LogSlate: Window 'RTS Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.27-10.46.51:759][753]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-10.46.51:760][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-10.46.51:760][753]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap
+[2025.10.27-10.46.51:763][753]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.27-10.46.51:769][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-10.46.51:791][753]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.27-10.46.51:791][753]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.10.27-10.46.51:791][753]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.10.27-10.46.51:795][753]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.10.27-10.46.51:805][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.10.27-10.46.51:935][754]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.10.27-10.47.06:181][557]LogSlate: Window 'Message Log' being destroyed
+[2025.10.27-10.47.06:187][557]LogSlate: Window 'Message Log' being destroyed
+[2025.10.27-10.49.14:547][285]LogEditorTransaction: Undo Add Node
+[2025.10.27-10.51.20:056][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2025.10.27-10.51.38:281][838]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.10.27-10.51.40:428][946]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.27-10.51.40:435][946]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.10.27-10.51.40:435][946]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2025.10.27-10.51.40:437][946]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 2.595 ms (total: 24.647 ms)
+[2025.10.27-10.51.40:438][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.27-10.51.40:438][946]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.10.27-10.51.40:442][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004637s)
+[2025.10.27-10.51.40:442][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.004679s)
+[2025.10.27-10.51.40:466][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.10.27-10.51.40:470][946]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap
+[2025.10.27-10.51.40:472][946]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.27-10.51.40:472][946]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.27-10.51.40:472][946]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.27-10.51.40:472][946]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.27-10.51.40:473][946]LogWorldPartition: Display: WorldPartition initialize took 1.514 ms (total: 543.878 ms)
+[2025.10.27-10.51.40:473][946]LogPlayLevel: PIE: World Init took: (0.004003s)
+[2025.10.27-10.51.40:474][946]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.10.27-10.51.40:474][946]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.27-10.51.40:474][946]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.27-10.51.40:474][946]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.27-10.51.40:474][946]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.27-10.51.40:474][946]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.27-10.51.40:474][946]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.27-10.51.40:474][946]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.27-10.51.40:474][946]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.27-10.51.40:474][946]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.27-10.51.40:474][946]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.27-10.51.40:474][946]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.27-10.51.40:478][946]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.27-10.51.40:538][946]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.10.27-10.51.40:538][946]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.27-10.51.40:538][946]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.27-10.51.40:538][946]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.27-10.51.40:539][946]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.10.27-10.51.40:539][946]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.10.27-10.51.40:542][946]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.10.27-10.51.40:542][946]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.10.27-10.51.40:542][946]LogInit: FAudioDevice initialized with ID 9.
+[2025.10.27-10.51.40:542][946]LogAudio: Display: Audio Device (ID: 9) registered with world 'TopDownMap'.
+[2025.10.27-10.51.40:542][946]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.27-10.51.40:546][946]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.10.27-10.51.40:548][946]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 60) at 2025.10.27-04.51.40
+[2025.10.27-10.51.40:548][946]LogWorld: Bringing up level for play took: 0.001962
+[2025.10.27-10.51.40:551][946]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.10.27-10.51.40:556][946]LogScript: Warning: Accessed None trying to read property runtimeMaterial
+	BP_TestBuilding_C /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap:PersistentLevel.BP_TestBuilding_C_UAID_24B2B98F1CE83E9C02_1657339144
+	Function /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding_C:ExecuteUbergraph_BP_TestBuilding:0079
+[2025.10.27-10.51.40:556][946]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property runtimeMaterial". Node:  Set Scalar Parameter Value Graph:  EventGraph Function:  Execute Ubergraph BP Test Building Blueprint:  BP_TestBuilding
+[2025.10.27-10.51.40:557][946]PIE: Server logged in
+[2025.10.27-10.51.40:559][946]PIE: Play in editor total start time 0,124 seconds.
+[2025.10.27-10.51.42:607][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.27-10.51.42:607][ 52]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.10.27-10.51.42:608][ 52]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-10.51.42:608][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-10.51.42:608][ 52]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap
+[2025.10.27-10.51.42:612][ 52]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.27-10.51.42:617][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-10.51.42:642][ 52]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.27-10.51.42:642][ 52]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.27-10.51.42:642][ 52]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.10.27-10.51.42:645][ 52]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.10.27-10.51.42:651][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.27-10.51.42:656][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.10.27-10.51.44:235][ 53]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.10.27-10.51.58:974][765]LogAutomationController: Ignoring very large delta of 2.32 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.10.27-10.52.23:180][991]LogAutomationController: Ignoring very large delta of 3.20 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.10.27-10.52.54:558][359]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25290.570312
+[2025.10.27-10.52.55:558][362]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.27-10.52.55:558][362]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25291.238281, Update Interval: 326.175720
+[2025.10.27-10.52.57:955][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.10.27-10.52.57:961][369]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/8/85/R6KVEP6TZZMLFY6WEOB5X4_Auto9
+[2025.10.27-10.52.57:962][369]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/R6KVEP6TZZMLFY6WEOB5X4_Auto90D55ED0243DE2A837B878B9B61335AB0.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/8/85/R6KVEP6TZZMLFY6WEOB5X4_Auto9.uasset'
+[2025.10.27-10.52.57:965][369]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.037
+[2025.10.27-10.52.57:965][369]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.037
+[2025.10.27-10.52.57:965][369]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/TopDown/Blueprints/BP_TestBuilding] ([2] browsable assets)...
+[2025.10.27-10.52.58:207][369]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding]
+[2025.10.27-10.52.58:208][369]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_TestBuilding]
+[2025.10.27-10.52.58:218][369]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/BP_TestBuilding_Auto9
+[2025.10.27-10.52.58:219][369]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/BP_TestBuilding_Auto9B15B03FD4ABD32517B45339567138AE5.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/Autosaves/Game/TopDown/Blueprints/BP_TestBuilding_Auto9.uasset'
+[2025.10.27-10.52.58:220][369]LogFileHelpers: Auto-saving content packages took 0.256
+[2025.10.27-10.53.21:484][740]LogDerivedDataCache: C:/Users/tonya/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.27-10.55.09:655][488]LogSlate: Window 'Message Log' being destroyed
+[2025.10.27-10.55.09:664][488]LogSlate: Window 'Message Log' being destroyed
+[2025.10.27-10.55.18:161][997]LogEditorTransaction: Undo Edit Fresnel
+[2025.10.27-10.55.18:454][  4]LogEditorTransaction: Undo Move Node
+[2025.10.27-10.55.18:769][ 14]LogEditorTransaction: Undo Rename Variable
+[2025.10.27-10.55.18:965][ 19]LogEditorTransaction: Undo Promote To Variable
+[2025.10.27-10.55.19:149][ 23]LogEditorTransaction: Undo Create Pin Link
+[2025.10.27-10.55.19:308][ 26]LogEditorTransaction: Undo Move Node
+[2025.10.27-10.55.19:468][ 29]LogEditorTransaction: Undo Add Node
+[2025.10.27-10.55.19:640][ 33]LogEditorTransaction: Undo Add Node
+[2025.10.27-10.55.19:811][ 37]LogEditorTransaction: Undo Create Pin Link
+[2025.10.27-10.55.20:005][ 42]LogEditorTransaction: Undo Create Pin Link
+[2025.10.27-10.55.20:207][ 48]LogEditorTransaction: Undo Add Pin
+[2025.10.27-10.55.20:453][ 56]LogEditorTransaction: Undo Move Node
+[2025.10.27-10.55.20:708][ 65]LogEditorTransaction: Undo Add Component Nodes
+[2025.10.27-10.55.20:930][ 72]LogEditorTransaction: Undo Add Component Nodes
+[2025.10.27-10.55.21:183][ 81]LogEditorTransaction: Undo Add Node
+[2025.10.27-10.55.21:470][ 92]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-10.55.21:804][106]LogEditorTransaction: Undo Add Node
+[2025.10.27-10.55.22:152][113]LogEditorTransaction: Undo Break Pin Links
+[2025.10.27-10.55.23:654][195]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-10.55.24:321][229]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-10.55.24:989][263]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-10.55.29:373][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.10.27-10.55.31:017][606]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-10.55.31:089][606]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/TopDown/Blueprints/BP_TestBuilding] ([2] browsable assets)...
+[2025.10.27-10.55.31:179][606]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding]
+[2025.10.27-10.55.31:179][606]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_TestBuilding]
+[2025.10.27-10.55.31:179][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/BP_TestBuilding" FILE="../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Blueprints/BP_TestBuilding.uasset" SILENT=true
+[2025.10.27-10.55.31:186][606]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TestBuilding
+[2025.10.27-10.55.31:187][606]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/BP_TestBuilding9880268F4BE3F8D99E12F9A70AFAD65C.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Blueprints/BP_TestBuilding.uasset'
+[2025.10.27-10.55.31:197][606]LogFileHelpers: InternalPromptForCheckoutAndSave took 180.094 ms (total: 3.64 sec)
+[2025.10.27-10.55.31:238][606]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.27-10.55.31:238][606]LogContentValidation: Enabled validators:
+[2025.10.27-10.55.31:238][606]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-10.55.31:238][606]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-10.55.31:239][606]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-10.55.31:239][606]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-10.55.31:239][606]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-10.55.31:239][606]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-10.55.31:239][606]AssetCheck: /Game/TopDown/Blueprints/BP_TestBuilding Validating asset
+[2025.10.27-10.56.05:071][598]LogEditorTransaction: Undo Move Node
+[2025.10.27-10.56.05:670][617]LogEditorTransaction: Undo Add Node
+[2025.10.27-10.56.29:561][ 39]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-10.56.29:835][ 45]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-10.59.01:149][395]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25658.087891
+[2025.10.27-10.59.01:350][407]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.27-10.59.01:350][407]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25658.275391, Update Interval: 324.824371
+[2025.10.27-10.59.28:434][  2]LogEditorTransaction: Undo Break Pin Links
+[2025.10.27-10.59.28:791][ 12]LogEditorTransaction: Undo Break Pin Links
+[2025.10.27-10.59.59:677][809]LogEditorTransaction: Undo Add Node
+[2025.10.27-11.00.43:295][411]LogEditorTransaction: Undo Move Node
+[2025.10.27-11.00.43:585][419]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-11.00.44:190][447]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-11.00.44:654][471]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-11.00.45:150][497]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-11.01.10:173][625]LogSlate: Window 'Delete Variable' being destroyed
+[2025.10.27-11.01.10:221][625]LogAutomationController: Ignoring very large delta of 6.13 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.10.27-11.01.17:143][ 34]LogEditorTransaction: Undo Delete current selection
+[2025.10.27-11.02.10:038][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.10.27-11.02.47:844][379]LogEditorTransaction: Undo Move Node
+[2025.10.27-11.02.48:745][416]LogEditorTransaction: Undo Rename Variable
+[2025.10.27-11.02.48:941][424]LogEditorTransaction: Undo Promote To Variable
+[2025.10.27-11.02.49:134][432]LogEditorTransaction: Undo Move Node
+[2025.10.27-11.02.49:361][442]LogEditorTransaction: Undo Rename Variable
+[2025.10.27-11.02.49:569][451]LogEditorTransaction: Undo Promote To Variable
+[2025.10.27-11.02.49:861][465]LogEditorTransaction: Undo Move Node
+[2025.10.27-11.02.50:119][477]LogEditorTransaction: Undo Move Node
+[2025.10.27-11.02.50:410][491]LogEditorTransaction: Undo Add Node
+[2025.10.27-11.02.50:801][511]LogEditorTransaction: Undo Break Pin Links
+[2025.10.27-11.02.51:240][534]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-11.03.22:688][788]Cmd: TRANSACTION REDO
+[2025.10.27-11.03.22:688][788]LogEditorTransaction: Redo Move Nodes
+[2025.10.27-11.03.23:905][846]Cmd: TRANSACTION UNDO
+[2025.10.27-11.03.23:905][846]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-11.03.26:459][996]Cmd: TRANSACTION REDO
+[2025.10.27-11.03.26:459][996]LogEditorTransaction: Redo Move Nodes
+[2025.10.27-11.03.26:903][ 10]Cmd: TRANSACTION REDO
+[2025.10.27-11.03.26:903][ 10]LogEditorTransaction: Redo Break Pin Links
+[2025.10.27-11.03.28:758][117]Cmd: TRANSACTION UNDO
+[2025.10.27-11.03.28:758][117]LogEditorTransaction: Undo Break Pin Links
+[2025.10.27-11.03.29:063][132]Cmd: TRANSACTION UNDO
+[2025.10.27-11.03.29:063][132]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-11.03.29:420][150]Cmd: TRANSACTION UNDO
+[2025.10.27-11.03.29:420][150]LogEditorTransaction: Undo Move Node
+[2025.10.27-11.03.35:528][513]Cmd: TRANSACTION REDO
+[2025.10.27-11.03.35:529][513]LogEditorTransaction: Redo Move Node
+[2025.10.27-11.03.41:712][867]LogEditorTransaction: Redo Move Nodes
+[2025.10.27-11.03.42:629][906]LogEditorTransaction: Undo Move Nodes
+[2025.10.27-11.03.44:457][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.10.27-11.03.45:206][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-11.03.45:249][ 48]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/Components/BP_RuntimeMat] ([2] browsable assets)...
+[2025.10.27-11.03.45:250][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/Components/BP_RuntimeMat]
+[2025.10.27-11.03.45:254][ 48]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Components/BP_RuntimeMat
+[2025.10.27-11.03.45:255][ 48]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/BP_RuntimeMatFCAAE602482CCDA8412E5180B2630068.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Blueprints/Components/BP_RuntimeMat.uasset'
+[2025.10.27-11.03.45:267][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave took 61.054 ms (total: 3.70 sec)
+[2025.10.27-11.03.45:307][ 48]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.27-11.03.45:307][ 48]LogContentValidation: Enabled validators:
+[2025.10.27-11.03.45:307][ 48]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-11.03.45:307][ 48]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-11.03.45:307][ 48]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-11.03.45:307][ 48]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-11.03.45:307][ 48]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-11.03.45:307][ 48]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-11.03.45:307][ 48]AssetCheck: /Game/TopDown/Blueprints/Components/BP_RuntimeMat Validating asset
+[2025.10.27-11.04.12:234][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2025.10.27-11.04.12:242][287]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/8/85/R6KVEP6TZZMLFY6WEOB5X4_Auto0
+[2025.10.27-11.04.12:243][287]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/R6KVEP6TZZMLFY6WEOB5X4_Auto0831E4EFA44D7D2D7F782CF8C6F2380C1.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/8/85/R6KVEP6TZZMLFY6WEOB5X4_Auto0.uasset'
+[2025.10.27-11.04.12:246][287]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.035
+[2025.10.27-11.04.12:246][287]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.035
+[2025.10.27-11.05.20:852][493]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26038.716797
+[2025.10.27-11.05.22:185][497]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.27-11.05.22:185][497]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26039.718750, Update Interval: 343.926514
+[2025.10.27-11.09.06:213][169]LogEOSSDK: Warning: LogHttp: 00000929140C7200: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B769588FE-4657-E1AF-FDAC-A9A654FC0F12%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.10.27-11.09.06:213][170]LogEOSSDK: Warning: LogHttp: 00000929140C7200: request failed, libcurl error: 0 (No error)
+[2025.10.27-11.09.06:213][170]LogEOSSDK: Warning: LogHttp: 00000929140C7200: libcurl info message cache 0 (Found bundle for host: 0x9284d080ed0 [serially])
+[2025.10.27-11.09.06:213][170]LogEOSSDK: Warning: LogHttp: 00000929140C7200: libcurl info message cache 1 (  Trying 54.82.5.40:443...)
+[2025.10.27-11.09.06:213][170]LogEOSSDK: Warning: LogHttp: 00000929140C7200: libcurl info message cache 2 (connect to 54.82.5.40 port 443 failed: Timed out)
+[2025.10.27-11.09.06:213][170]LogEOSSDK: Warning: LogHttp: 00000929140C7200: libcurl info message cache 3 (  Trying 3.210.116.132:443...)
+[2025.10.27-11.09.06:213][170]LogEOSSDK: Warning: LogHttp: 00000929140C7200: libcurl info message cache 4 (Closing connection)
+[2025.10.27-11.09.06:545][170]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B769588FE-4657-E1AF-FDAC-A9A654FC0F12%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 0 (Found bundle for host: 0x927d2840600 [serially])
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 7 (Closing connection)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 9 (Send failure: Connection was reset)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC294EB11-4B4F-55EA-8F9D-088EC6E3AFDD%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2da60fbb419019dbcfdfc4a2d7c30208%7Ccbd20a150a9b4499b024dc6a80b72664%7C535c56e2-fd32-4c08-bae6-383bf60342b5&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 12 (  Trying 3.224.138.41:443...)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 13 (Connected to datarouter.ol.epicgames.com (3.224.138.41) port 443)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 14 (ALPN: curl offers http/1.1)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 15 (SSL reusing session ID)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 22 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 23 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.10.27-11.09.14:546][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 24 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.10.27-11.09.14:547][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 25 (ALPN: server accepted http/1.1)
+[2025.10.27-11.09.14:547][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 26 (Server certificate:)
+[2025.10.27-11.09.14:547][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 27 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.10.27-11.09.14:547][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 28 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.10.27-11.09.14:547][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 29 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.10.27-11.09.14:547][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 30 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.10.27-11.09.14:547][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 31 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.10.27-11.09.14:547][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 32 ( SSL certificate verify ok.)
+[2025.10.27-11.09.14:547][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 33 (using HTTP/1.1)
+[2025.10.27-11.09.14:547][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 34 (necessary data rewind wasn't possible)
+[2025.10.27-11.09.14:547][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 35 (Closing connection)
+[2025.10.27-11.09.14:547][194]LogHttp: Warning: 0000092913DE9A00: libcurl info message cache 36 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.10.27-11.11.43:677][629]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26422.064453
+[2025.10.27-11.11.43:825][638]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.27-11.11.43:825][638]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26422.195312, Update Interval: 352.139038
+[2025.10.27-11.17.14:318][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.10.27-11.17.21:247][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.10.27-11.17.25:376][967]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.27-11.17.25:384][967]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.10.27-11.17.25:384][967]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2025.10.27-11.17.25:385][967]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 2.180 ms (total: 26.827 ms)
+[2025.10.27-11.17.25:385][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.27-11.17.25:386][967]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.10.27-11.17.25:390][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004578s)
+[2025.10.27-11.17.25:390][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.004619s)
+[2025.10.27-11.17.25:413][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.10.27-11.17.25:417][967]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap
+[2025.10.27-11.17.25:419][967]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.27-11.17.25:419][967]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.27-11.17.25:419][967]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.27-11.17.25:419][967]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.27-11.17.25:420][967]LogWorldPartition: Display: WorldPartition initialize took 1.535 ms (total: 545.413 ms)
+[2025.10.27-11.17.25:420][967]LogPlayLevel: PIE: World Init took: (0.003646s)
+[2025.10.27-11.17.25:421][967]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.10.27-11.17.25:421][967]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.27-11.17.25:421][967]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.27-11.17.25:421][967]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.27-11.17.25:421][967]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.27-11.17.25:421][967]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.27-11.17.25:421][967]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.27-11.17.25:421][967]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.27-11.17.25:421][967]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.27-11.17.25:421][967]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.27-11.17.25:421][967]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.27-11.17.25:421][967]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.27-11.17.25:425][967]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.27-11.17.25:484][967]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.10.27-11.17.25:485][967]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.27-11.17.25:485][967]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.27-11.17.25:485][967]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.27-11.17.25:485][967]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.10.27-11.17.25:486][967]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.10.27-11.17.25:489][967]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.10.27-11.17.25:489][967]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.10.27-11.17.25:489][967]LogInit: FAudioDevice initialized with ID 10.
+[2025.10.27-11.17.25:489][967]LogAudio: Display: Audio Device (ID: 10) registered with world 'TopDownMap'.
+[2025.10.27-11.17.25:489][967]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.27-11.17.25:521][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.27-11.17.25:521][967]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.10.27-11.17.25:523][967]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 60) at 2025.10.27-05.17.25
+[2025.10.27-11.17.25:523][967]LogWorld: Bringing up level for play took: 0.002030
+[2025.10.27-11.17.25:527][967]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.10.27-11.17.25:534][967]PIE: Server logged in
+[2025.10.27-11.17.25:535][967]PIE: Play in editor total start time 0,152 seconds.
+[2025.10.27-11.17.39:448][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.27-11.17.39:448][775]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.10.27-11.17.39:448][775]LogSlate: Window 'RTS Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.27-11.17.39:451][775]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-11.17.39:451][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-11.17.39:451][775]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap
+[2025.10.27-11.17.39:455][775]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.27-11.17.39:461][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-11.17.39:485][775]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.27-11.17.39:485][775]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.27-11.17.39:485][775]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.10.27-11.17.39:488][775]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.10.27-11.17.39:497][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.10.27-11.17.39:560][776]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.10.27-11.17.50:019][401]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-11.17.50:064][401]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/TopDown/Blueprints/BP_TestBuilding] ([2] browsable assets)...
+[2025.10.27-11.17.50:266][401]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding]
+[2025.10.27-11.17.50:266][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_TestBuilding]
+[2025.10.27-11.17.50:266][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/BP_TestBuilding" FILE="../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Blueprints/BP_TestBuilding.uasset" SILENT=true
+[2025.10.27-11.17.50:276][401]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TestBuilding
+[2025.10.27-11.17.50:277][401]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/BP_TestBuilding10963E80442D8ADB3DE9DEB7C89EB5CF.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Blueprints/BP_TestBuilding.uasset'
+[2025.10.27-11.17.50:288][401]LogFileHelpers: InternalPromptForCheckoutAndSave took 269.012 ms (total: 3.97 sec)
+[2025.10.27-11.17.50:332][401]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.27-11.17.50:332][401]LogContentValidation: Enabled validators:
+[2025.10.27-11.17.50:332][401]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-11.17.50:332][401]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-11.17.50:332][401]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-11.17.50:332][401]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-11.17.50:332][401]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-11.17.50:332][401]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-11.17.50:332][401]AssetCheck: /Game/TopDown/Blueprints/BP_TestBuilding Validating asset
+[2025.10.27-11.17.52:420][523]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-11.17.52:471][523]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/Components/BP_RuntimeMat] ([2] browsable assets)...
+[2025.10.27-11.17.52:471][523]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/Components/BP_RuntimeMat]
+[2025.10.27-11.17.52:476][523]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Components/BP_RuntimeMat
+[2025.10.27-11.17.52:476][523]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/BP_RuntimeMatF2CB837249298D9050CFB3B98C53A16C.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Blueprints/Components/BP_RuntimeMat.uasset'
+[2025.10.27-11.17.52:485][523]LogFileHelpers: InternalPromptForCheckoutAndSave took 65.423 ms (total: 4.04 sec)
+[2025.10.27-11.17.52:525][523]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.27-11.17.52:525][523]LogContentValidation: Enabled validators:
+[2025.10.27-11.17.52:525][523]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-11.17.52:525][523]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-11.17.52:525][523]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-11.17.52:525][523]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-11.17.52:525][523]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-11.17.52:525][523]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-11.17.52:525][523]AssetCheck: /Game/TopDown/Blueprints/Components/BP_RuntimeMat Validating asset
+[2025.10.27-11.18.34:553][420]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26834.050781
+[2025.10.27-11.18.34:903][441]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.27-11.18.34:903][441]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26834.386719, Update Interval: 324.156006
+[2025.10.27-11.19.04:884][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.27-11.19.07:395][358]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.27-11.19.07:404][358]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.10.27-11.19.07:404][358]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2025.10.27-11.19.07:405][358]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 2.392 ms (total: 29.219 ms)
+[2025.10.27-11.19.07:406][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.27-11.19.07:406][358]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.10.27-11.19.07:411][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004216s)
+[2025.10.27-11.19.07:411][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.004258s)
+[2025.10.27-11.19.07:432][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.10.27-11.19.07:439][358]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap
+[2025.10.27-11.19.07:441][358]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.27-11.19.07:441][358]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.27-11.19.07:441][358]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.27-11.19.07:441][358]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.27-11.19.07:442][358]LogWorldPartition: Display: WorldPartition initialize took 1.546 ms (total: 546.959 ms)
+[2025.10.27-11.19.07:442][358]LogPlayLevel: PIE: World Init took: (0.003467s)
+[2025.10.27-11.19.07:443][358]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.10.27-11.19.07:443][358]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.27-11.19.07:443][358]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.27-11.19.07:443][358]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.27-11.19.07:443][358]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.27-11.19.07:443][358]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.27-11.19.07:443][358]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.27-11.19.07:443][358]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.27-11.19.07:443][358]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.27-11.19.07:443][358]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.27-11.19.07:443][358]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.27-11.19.07:443][358]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.27-11.19.07:446][358]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.27-11.19.07:502][358]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.10.27-11.19.07:503][358]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.27-11.19.07:503][358]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.27-11.19.07:503][358]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.27-11.19.07:503][358]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.10.27-11.19.07:505][358]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.10.27-11.19.07:507][358]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.10.27-11.19.07:507][358]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.10.27-11.19.07:507][358]LogInit: FAudioDevice initialized with ID 11.
+[2025.10.27-11.19.07:507][358]LogAudio: Display: Audio Device (ID: 11) registered with world 'TopDownMap'.
+[2025.10.27-11.19.07:507][358]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.27-11.19.07:510][358]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.10.27-11.19.07:513][358]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 60) at 2025.10.27-05.19.07
+[2025.10.27-11.19.07:513][358]LogWorld: Bringing up level for play took: 0.001894
+[2025.10.27-11.19.07:516][358]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2025.10.27-11.19.07:522][358]PIE: Server logged in
+[2025.10.27-11.19.07:523][358]PIE: Play in editor total start time 0,12 seconds.
+[2025.10.27-11.19.28:691][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.27-11.19.28:691][618]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.10.27-11.19.28:691][618]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-11.19.28:692][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-11.19.28:692][618]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap
+[2025.10.27-11.19.28:695][618]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.27-11.19.28:701][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-11.19.28:725][618]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.27-11.19.28:725][618]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.27-11.19.28:725][618]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.10.27-11.19.28:728][618]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.10.27-11.19.28:732][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.27-11.19.28:736][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.10.27-11.19.28:810][619]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2025.10.27-11.19.44:597][543]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding_C
+[2025.10.27-11.19.44:597][543]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding_C
+[2025.10.27-11.19.44:600][543]LogActorFactory: Actor Factory spawned Blueprint /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding as actor: BP_TestBuilding_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.BP_TestBuilding_C_1
+[2025.10.27-11.19.44:602][543]LogActorFactory: Actor Factory spawned Blueprint /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding as actor: BP_TestBuilding_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.BP_TestBuilding_C_1
+[2025.10.27-11.19.46:846][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2025.10.27-11.19.46:850][667]LogEditorActor: Deleted 0 Actors (0.032 secs)
+[2025.10.27-11.19.46:856][667]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding_C
+[2025.10.27-11.19.46:856][667]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding_C
+[2025.10.27-11.19.46:863][667]LogActorFactory: Actor Factory spawned Blueprint /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding as actor: BP_TestBuilding_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.BP_TestBuilding_C_UAID_24B2B98F1CE8519C02_1245671489
+[2025.10.27-11.19.46:865][667]LogActorFactory: Actor Factory spawned Blueprint /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding as actor: BP_TestBuilding_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.BP_TestBuilding_C_UAID_24B2B98F1CE8519C02_1245671489
+[2025.10.27-11.19.52:862][ 17]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.27-11.19.52:869][ 17]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.10.27-11.19.52:869][ 17]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2025.10.27-11.19.52:871][ 17]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 2.637 ms (total: 31.857 ms)
+[2025.10.27-11.19.52:882][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.27-11.19.52:883][ 17]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.10.27-11.19.52:886][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004306s)
+[2025.10.27-11.19.52:886][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.004345s)
+[2025.10.27-11.19.52:908][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.10.27-11.19.52:915][ 17]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap
+[2025.10.27-11.19.52:917][ 17]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.27-11.19.52:917][ 17]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.27-11.19.52:917][ 17]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.27-11.19.52:917][ 17]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.27-11.19.52:918][ 17]LogWorldPartition: Display: WorldPartition initialize took 1.606 ms (total: 548.566 ms)
+[2025.10.27-11.19.52:918][ 17]LogPlayLevel: PIE: World Init took: (0.003428s)
+[2025.10.27-11.19.52:918][ 17]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.10.27-11.19.52:918][ 17]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.27-11.19.52:918][ 17]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.27-11.19.52:918][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.27-11.19.52:918][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.27-11.19.52:918][ 17]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.27-11.19.52:918][ 17]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.27-11.19.52:918][ 17]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.27-11.19.52:918][ 17]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.27-11.19.52:918][ 17]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.27-11.19.52:918][ 17]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.27-11.19.52:918][ 17]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.27-11.19.52:922][ 17]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.27-11.19.52:979][ 17]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.10.27-11.19.52:980][ 17]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.27-11.19.52:980][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.27-11.19.52:980][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.27-11.19.52:980][ 17]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.10.27-11.19.52:980][ 17]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.10.27-11.19.52:983][ 17]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.10.27-11.19.52:983][ 17]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.10.27-11.19.52:983][ 17]LogInit: FAudioDevice initialized with ID 12.
+[2025.10.27-11.19.52:983][ 17]LogAudio: Display: Audio Device (ID: 12) registered with world 'TopDownMap'.
+[2025.10.27-11.19.52:983][ 17]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.10.27-11.19.52:987][ 17]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.10.27-11.19.52:989][ 17]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 60) at 2025.10.27-05.19.52
+[2025.10.27-11.19.52:989][ 17]LogWorld: Bringing up level for play took: 0.001970
+[2025.10.27-11.19.52:992][ 17]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.10.27-11.19.52:998][ 17]PIE: Server logged in
+[2025.10.27-11.19.53:001][ 17]PIE: Play in editor total start time 0,131 seconds.
+[2025.10.27-11.20.04:891][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.27-11.20.04:891][713]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.10.27-11.20.04:891][713]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-11.20.04:892][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-11.20.04:892][713]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap
+[2025.10.27-11.20.04:898][713]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.27-11.20.04:904][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-11.20.04:928][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.27-11.20.04:928][713]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.10.27-11.20.04:928][713]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.10.27-11.20.04:930][713]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.10.27-11.20.04:942][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.10.27-11.20.04:989][714]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.10.27-11.20.22:918][698]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding_C
+[2025.10.27-11.20.22:918][698]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding_C
+[2025.10.27-11.20.22:920][698]LogActorFactory: Actor Factory spawned Blueprint /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding as actor: BP_TestBuilding_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.BP_TestBuilding_C_2
+[2025.10.27-11.20.22:922][698]LogActorFactory: Actor Factory spawned Blueprint /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding as actor: BP_TestBuilding_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.BP_TestBuilding_C_2
+[2025.10.27-11.20.23:707][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.10.27-11.20.23:712][740]LogEditorActor: Deleted 0 Actors (0.032 secs)
+[2025.10.27-11.20.23:718][740]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding_C
+[2025.10.27-11.20.23:718][740]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding_C
+[2025.10.27-11.20.23:722][740]LogActorFactory: Actor Factory spawned Blueprint /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding as actor: BP_TestBuilding_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.BP_TestBuilding_C_UAID_24B2B98F1CE8519C02_1282533490
+[2025.10.27-11.20.23:725][740]LogActorFactory: Actor Factory spawned Blueprint /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding as actor: BP_TestBuilding_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.BP_TestBuilding_C_UAID_24B2B98F1CE8519C02_1282533490
+[2025.10.27-11.20.33:949][327]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.27-11.20.33:956][327]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.10.27-11.20.33:956][327]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2025.10.27-11.20.33:958][327]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 2.605 ms (total: 34.462 ms)
+[2025.10.27-11.20.33:958][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.27-11.20.33:959][327]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.10.27-11.20.33:963][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004308s)
+[2025.10.27-11.20.33:963][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.004354s)
+[2025.10.27-11.20.33:987][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.10.27-11.20.33:991][327]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap
+[2025.10.27-11.20.33:993][327]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.27-11.20.33:993][327]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.27-11.20.33:993][327]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.27-11.20.33:993][327]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.27-11.20.33:995][327]LogWorldPartition: Display: WorldPartition initialize took 1.613 ms (total: 550.179 ms)
+[2025.10.27-11.20.33:995][327]LogPlayLevel: PIE: World Init took: (0.003475s)
+[2025.10.27-11.20.33:996][327]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.10.27-11.20.33:996][327]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.27-11.20.33:996][327]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.27-11.20.33:996][327]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.27-11.20.33:996][327]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.27-11.20.33:996][327]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.27-11.20.33:996][327]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.27-11.20.33:996][327]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.27-11.20.33:996][327]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.27-11.20.33:996][327]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.27-11.20.33:996][327]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.27-11.20.33:996][327]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.27-11.20.33:998][327]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.27-11.20.34:056][327]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.10.27-11.20.34:057][327]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.27-11.20.34:057][327]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.27-11.20.34:057][327]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.27-11.20.34:058][327]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.10.27-11.20.34:058][327]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.10.27-11.20.34:061][327]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.10.27-11.20.34:061][327]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.10.27-11.20.34:061][327]LogInit: FAudioDevice initialized with ID 13.
+[2025.10.27-11.20.34:061][327]LogAudio: Display: Audio Device (ID: 13) registered with world 'TopDownMap'.
+[2025.10.27-11.20.34:061][327]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.27-11.20.34:065][327]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.10.27-11.20.34:067][327]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 60) at 2025.10.27-05.20.34
+[2025.10.27-11.20.34:067][327]LogWorld: Bringing up level for play took: 0.002033
+[2025.10.27-11.20.34:071][327]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.10.27-11.20.34:078][327]PIE: Server logged in
+[2025.10.27-11.20.34:079][327]PIE: Play in editor total start time 0,123 seconds.
+[2025.10.27-11.20.57:032][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.27-11.20.57:032][690]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.10.27-11.20.57:032][690]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-11.20.57:034][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-11.20.57:034][690]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap
+[2025.10.27-11.20.57:045][690]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.27-11.20.57:050][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-11.20.57:075][690]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.27-11.20.57:075][690]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.27-11.20.57:076][690]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.10.27-11.20.57:078][690]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.10.27-11.20.57:086][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.27-11.20.57:090][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.10.27-11.20.57:139][691]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.10.27-11.21.26:941][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.10.27-11.21.26:948][215]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/8/85/R6KVEP6TZZMLFY6WEOB5X4_Auto1
+[2025.10.27-11.21.26:948][215]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/R6KVEP6TZZMLFY6WEOB5X4_Auto136F664FE466037E40EE27CA5C46B0069.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/8/85/R6KVEP6TZZMLFY6WEOB5X4_Auto1.uasset'
+[2025.10.27-11.21.26:953][215]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/0/X8/P5BOYOZFSGF2U5L8X4M6TY_Auto1
+[2025.10.27-11.21.26:953][215]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/P5BOYOZFSGF2U5L8X4M6TY_Auto1EAAC821F49C3A06583EE66A56375EAED.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/0/X8/P5BOYOZFSGF2U5L8X4M6TY_Auto1.uasset'
+[2025.10.27-11.21.26:956][215]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/D/6H/J6WKR2FP8X8K4R3U8NHC3D_Auto1
+[2025.10.27-11.21.26:956][215]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/J6WKR2FP8X8K4R3U8NHC3D_Auto1A28BDCE642BF072D8F1FE597E89D856E.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/D/6H/J6WKR2FP8X8K4R3U8NHC3D_Auto1.uasset'
+[2025.10.27-11.21.26:957][215]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.040
+[2025.10.27-11.21.26:957][215]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.040
+[2025.10.27-11.21.26:957][215]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/TopDown/Blueprints/BP_TestBuilding] ([2] browsable assets)...
+[2025.10.27-11.21.27:181][215]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDown/Blueprints/BP_TestBuilding.BP_TestBuilding]
+[2025.10.27-11.21.27:181][215]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_TestBuilding]
+[2025.10.27-11.21.27:192][215]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/BP_TestBuilding_Auto1
+[2025.10.27-11.21.27:192][215]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/BP_TestBuilding_Auto1D879B0504B80C564160602B08797B87C.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/Autosaves/Game/TopDown/Blueprints/BP_TestBuilding_Auto1.uasset'
+[2025.10.27-11.21.27:193][215]LogFileHelpers: Auto-saving content packages took 0.237
