@@ -14,7 +14,9 @@
 				"C:/Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Blueprints/BP_TestBuilding.uasset",
 				"C:/Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Props/MI_PBR.uasset",
 				"C:/Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Props/MI_Building.uasset",
-				"C:/Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/__ExternalActors__/TopDown/Maps/TopDownMap/8/85/R6KVEP6TZZMLFY6WEOB5X4.uasset"
+				"C:/Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/__ExternalActors__/TopDown/Maps/TopDownMap/8/85/R6KVEP6TZZMLFY6WEOB5X4.uasset",
+				"C:/Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Blueprints/Components/BP_RuntimeMat.uasset",
+				"C:/Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Blueprints/BP_TopDownController.uasset"
 			]
 		}
 	]
