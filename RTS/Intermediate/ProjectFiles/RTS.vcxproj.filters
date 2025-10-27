@@ -30,9 +30,156 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FCTween">
+      <UniqueIdentifier>{D7F37793-4BCA-3FA3-BB90-3940A85CC273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FCTween\Source">
+      <UniqueIdentifier>{A12CECE7-F757-3208-A247-8F6774712259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FCTween\Source\FCTween">
+      <UniqueIdentifier>{ED114551-5B9C-3133-82A0-86ED73C9F264}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FCTween\Source\FCTween\FCTween.Build.cs">
+      <Filter>Plugins\FCTween\Source\FCTween</Filter>
+    </None>
+    <Filter Include="Plugins\FCTween\Source\FCTween\Private">
+      <UniqueIdentifier>{D43AD5CC-B1BE-3017-AD3E-2FF72C24107C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\FCEasing.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\FCTween.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\FCTweenInstance.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\FCTweenInstanceFloat.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\FCTweenInstanceQuat.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\FCTweenInstanceVector.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\FCTweenInstanceVector2D.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\FCTweenModule.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\FCTweenSubsystem.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\FCTweenUObject.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FCTween\Source\FCTween\Private\Blueprints">
+      <UniqueIdentifier>{2D9536D8-C502-379A-9154-7B793C4B996E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\Blueprints\FCTweenBlueprintLibrary.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private\Blueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\Blueprints\FCTweenBPAction.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private\Blueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\Blueprints\FCTweenBPActionFloat.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private\Blueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\Blueprints\FCTweenBPActionQuat.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private\Blueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\Blueprints\FCTweenBPActionRotator.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private\Blueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\Blueprints\FCTweenBPActionVector.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private\Blueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Private\Blueprints\FCTweenBPActionVector2D.cpp">
+      <Filter>Plugins\FCTween\Source\FCTween\Private\Blueprints</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FCTween\Source\FCTween\Public">
+      <UniqueIdentifier>{966B4FC4-56B0-3A10-B8F9-4353B25064F1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\FCEasing.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\FCTween.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\FCTweenInstance.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\FCTweenInstanceFloat.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\FCTweenInstanceQuat.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\FCTweenInstanceVector.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\FCTweenInstanceVector2D.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\FCTweenManager.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\FCTweenModule.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\FCTweenSubsystem.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\FCTweenUObject.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FCTween\Source\FCTween\Public\Blueprints">
+      <UniqueIdentifier>{87756E89-14AC-3545-9F72-6908CFF1ACAB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\Blueprints\FCTweenBlueprintLibrary.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public\Blueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\Blueprints\FCTweenBPAction.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public\Blueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\Blueprints\FCTweenBPActionFloat.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public\Blueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\Blueprints\FCTweenBPActionQuat.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public\Blueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\Blueprints\FCTweenBPActionRotator.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public\Blueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\Blueprints\FCTweenBPActionVector.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public\Blueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FCTween\Source\FCTween\Public\Blueprints\FCTweenBPActionVector2D.h">
+      <Filter>Plugins\FCTween\Source\FCTween\Public\Blueprints</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\FCTween\FCTween.uplugin">
+      <Filter>Plugins\FCTween</Filter>
+    </None>
+    <Filter Include="Plugins\FCTween\Resources">
+      <UniqueIdentifier>{91CC9F7D-A3BF-3F58-BD4A-25DE105B76BB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FCTween\Resources\Icon128.png">
+      <Filter>Plugins\FCTween\Resources</Filter>
+    </None>
     <Filter Include="Source\RTS">
       <UniqueIdentifier>{0CEF8592-1DED-3B75-8D95-3598E3CD8D44}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\RTS\MainBuild.cpp">
+      <Filter>Source\RTS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RTS\MainBuild.h">
+      <Filter>Source\RTS</Filter>
+    </ClCompile>
     <None Include="..\..\Source\RTS\RTS.Build.cs">
       <Filter>Source\RTS</Filter>
     </None>
@@ -48,10 +195,16 @@
     <ClCompile Include="..\..\Source\RTS\RTSClass.h">
       <Filter>Source\RTS</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\RTS\TestClass.cpp">
+    <ClCompile Include="..\..\Source\RTS\UnitBuild.cpp">
       <Filter>Source\RTS</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\RTS\TestClass.h">
+    <ClCompile Include="..\..\Source\RTS\UnitBuild.h">
+      <Filter>Source\RTS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RTS\UnitCharacter.cpp">
+      <Filter>Source\RTS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RTS\UnitCharacter.h">
       <Filter>Source\RTS</Filter>
     </ClCompile>
   </ItemGroup>
