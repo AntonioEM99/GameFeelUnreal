@@ -7592,3 +7592,28 @@ Sampler Limit: 32
 [2025.10.27-11.21.27:192][215]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/BP_TestBuilding_Auto1
 [2025.10.27-11.21.27:192][215]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/BP_TestBuilding_Auto1D879B0504B80C564160602B08797B87C.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/Autosaves/Game/TopDown/Blueprints/BP_TestBuilding_Auto1.uasset'
 [2025.10.27-11.21.27:193][215]LogFileHelpers: Auto-saving content packages took 0.237
+[2025.10.27-11.22.20:251][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.10.27-11.22.21:660][150]LogSlate: Window 'Save Content' being destroyed
+[2025.10.27-11.22.21:672][150]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-11.22.21:704][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown/Blueprints/BP_TestBuilding] ([2] browsable assets)...
+[2025.10.27-11.22.21:704][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_TestBuilding]
+[2025.10.27-11.22.21:704][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/BP_TestBuilding" FILE="../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Blueprints/BP_TestBuilding.uasset" SILENT=true
+[2025.10.27-11.22.21:712][150]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TestBuilding
+[2025.10.27-11.22.21:712][150]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/BP_TestBuildingB2898BA44249E3694F52F6AEC9EE06BD.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/TopDown/Blueprints/BP_TestBuilding.uasset'
+[2025.10.27-11.22.21:717][150]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/8/85/R6KVEP6TZZMLFY6WEOB5X4
+[2025.10.27-11.22.21:718][150]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/R6KVEP6TZZMLFY6WEOB5X4AA22E08D442E0A139F5CE0BEB0895A69.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/__ExternalActors__/TopDown/Maps/TopDownMap/8/85/R6KVEP6TZZMLFY6WEOB5X4.uasset'
+[2025.10.27-11.22.21:721][150]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/0/X8/P5BOYOZFSGF2U5L8X4M6TY
+[2025.10.27-11.22.21:721][150]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/P5BOYOZFSGF2U5L8X4M6TY86E7D6DA44058C3E23153B9E457FF2FF.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/__ExternalActors__/TopDown/Maps/TopDownMap/0/X8/P5BOYOZFSGF2U5L8X4M6TY.uasset'
+[2025.10.27-11.22.21:725][150]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/D/6H/J6WKR2FP8X8K4R3U8NHC3D
+[2025.10.27-11.22.21:725][150]LogSavePackage: Moving '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Saved/J6WKR2FP8X8K4R3U8NHC3D0FD12A3C4F0182E8809401A278C4DDE8.tmp' to '../../../../../../Users/tonya/Desktop/Git/GameFeelUnreal/RTS/Content/__ExternalActors__/TopDown/Maps/TopDownMap/D/6H/J6WKR2FP8X8K4R3U8NHC3D.uasset'
+[2025.10.27-11.22.21:740][150]LogFileHelpers: InternalPromptForCheckoutAndSave took 67.890 ms (total: 4.10 sec)
+[2025.10.27-11.22.21:786][150]LogContentValidation: Display: Starting to validate 5 assets
+[2025.10.27-11.22.21:787][150]LogContentValidation: Enabled validators:
+[2025.10.27-11.22.21:787][150]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-11.22.21:787][150]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-11.22.21:787][150]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-11.22.21:787][150]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-11.22.21:787][150]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-11.22.21:787][150]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-11.22.21:787][150]AssetCheck: /Game/TopDown/Blueprints/BP_TestBuilding Validating asset
+[2025.10.27-11.22.21:787][150]AssetCheck: /Game/TopDown/Maps/TopDownMap Validating asset
