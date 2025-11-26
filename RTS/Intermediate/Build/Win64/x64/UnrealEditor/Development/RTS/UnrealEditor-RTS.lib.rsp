@@ -7,6 +7,8 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\tonya\Desktop\Git\GameFeelUnreal\RTS\Intermediate\Build\Win64\x64\RTSEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\tonya\Desktop\Git\GameFeelUnreal\RTS\Intermediate\Build\Win64\x64\UnrealEditor\Development\RTS\GameManager.gen.cpp.obj"
+"C:\Users\tonya\Desktop\Git\GameFeelUnreal\RTS\Intermediate\Build\Win64\x64\UnrealEditor\Development\RTS\MainBuild.gen.cpp.obj"
 "C:\Users\tonya\Desktop\Git\GameFeelUnreal\RTS\Intermediate\Build\Win64\x64\UnrealEditor\Development\RTS\RTS.init.gen.cpp.obj"
 "C:\Users\tonya\Desktop\Git\GameFeelUnreal\RTS\Intermediate\Build\Win64\x64\UnrealEditor\Development\RTS\UnitCharacter.gen.cpp.obj"
 "C:\Users\tonya\Desktop\Git\GameFeelUnreal\RTS\Intermediate\Build\Win64\x64\UnrealEditor\Development\RTS\GameManager.cpp.obj"

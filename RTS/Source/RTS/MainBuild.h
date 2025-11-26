@@ -3,13 +3,36 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "MainBuild.generated.h"
 
-/**
- * 
- */
-class RTS_API MainBuild
+class AUnitCharacter;
+class AGameManager;
+
+UCLASS()
+class RTS_API AMainBuild : public AActor
 {
-public:
-	MainBuild();
-	~MainBuild();
+	GENERATED_BODY()
+	
+public:	
+	// Sets default values for this actor's properties
+	AMainBuild();
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Build|Spawn")
+	TSubclassOf<AUnitCharacter> WorkerClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Build|Spawn")
+	FVector SpawnOffset;
+
+	UFUNCTION(BlueprintCallable, Category = "Build")
+	AUnitCharacter* SpawnWorker();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
 };

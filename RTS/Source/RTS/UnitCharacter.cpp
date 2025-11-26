@@ -8,7 +8,14 @@ AUnitCharacter::AUnitCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	UnitType = EUnitType::ManualU;
+	UnitName = NAME_None;
+}
 
+void AUnitCharacter::InitializeUnit(EUnitType InType, FName InName)
+{
+	UnitType = InType;
+	UnitName = InName;
 }
 
 // Called when the game starts or when spawned
